@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" aria-label="Vaca">
+  <rect width="200" height="200" fill="#e0f2fe"/>
+  <!-- Corpo -->
+  <ellipse cx="100" cy="120" rx="65" ry="40" fill="white" stroke="#333" stroke-width="3"/>
+  <!-- Manchas pretas -->
+  <ellipse cx="80" cy="115" rx="15" ry="10" fill="#333"/>
+  <ellipse cx="125" cy="130" rx="12" ry="8" fill="#333"/>
+  <!-- Cabeça -->
+  <ellipse cx="160" cy="105" rx="25" ry="22" fill="white" stroke="#333" stroke-width="3"/>
+  <!-- Focinho rosa -->
+  <ellipse cx="170" cy="115" rx="10" ry="7" fill="#f9a8d4" stroke="#333" stroke-width="2"/>
+  <!-- Narinas -->
+  <ellipse cx="167" cy="115" rx="2" ry="1.5" fill="#333"/>
+  <ellipse cx="173" cy="115" rx="2" ry="1.5" fill="#333"/>
+  <!-- Chifres -->
+  <path d="M150 88 Q155 78 162 88" fill="#fef3c7" stroke="#333" stroke-width="2"/>
+  <path d="M170 88 Q175 78 180 88" fill="#fef3c7" stroke="#333" stroke-width="2"/>
+  <!-- Olhos -->
+  <circle cx="155" cy="100" r="3" fill="#333"/>
+  <circle cx="172" cy="100" r="3" fill="#333"/>
+  <circle cx="156" cy="99" r="1" fill="white"/>
+  <circle cx="173" cy="99" r="1" fill="white"/>
+  <!-- Orelhas -->
+  <ellipse cx="148" cy="95" rx="5" ry="8" fill="white" stroke="#333" stroke-width="2" transform="rotate(-30 148 95)"/>
+  <ellipse cx="184" cy="95" rx="5" ry="8" fill="white" stroke="#333" stroke-width="2" transform="rotate(30 184 95)"/>
+  <!-- Patas -->
+  <rect x="55" y="155" width="10" height="25" fill="white" stroke="#333" stroke-width="2"/>
+  <rect x="80" y="155" width="10" height="25" fill="white" stroke="#333" stroke-width="2"/>
+  <rect x="120" y="155" width="10" height="25" fill="white" stroke="#333" stroke-width="2"/>
+  <rect x="145" y="155" width="10" height="25" fill="white" stroke="#333" stroke-width="2"/>
+  <!-- Rabo -->
+  <path d="M35 120 Q25 110 30 130 Q20 140 32 145" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+  <!-- Cotovelo -->
+  <circle cx="32" cy="145" r="4" fill="#333"/>
+</svg>

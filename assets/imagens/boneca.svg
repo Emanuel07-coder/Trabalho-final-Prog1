@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" aria-label="Boneca">
+  <rect width="200" height="200" fill="#fce7f3"/>
+  <!-- Cabelo (fundo) -->
+  <path d="M55 70 Q50 25 100 20 Q150 25 145 70 L140 80 Q130 50 100 50 Q70 50 60 80 Z" fill="#92400e" stroke="#333" stroke-width="2.5"/>
+  <!-- Laço no topo -->
+  <circle cx="100" cy="22" r="5" fill="#dc2626" stroke="#333" stroke-width="1.5"/>
+  <path d="M100 22 L88 12 L92 22 L88 32 Z" fill="#dc2626" stroke="#333" stroke-width="1.5"/>
+  <path d="M100 22 L112 12 L108 22 L112 32 Z" fill="#dc2626" stroke="#333" stroke-width="1.5"/>
+  <!-- Cabeça -->
+  <circle cx="100" cy="75" r="35" fill="#fbbf24" stroke="#333" stroke-width="3"/>
+  <!-- Cabelo na frente (franja) -->
+  <path d="M68 70 Q75 55 100 55 Q125 55 132 70 Q120 60 100 60 Q80 60 68 70 Z" fill="#92400e" stroke="#333" stroke-width="2"/>
+  <!-- Olhos -->
+  <ellipse cx="88" cy="75" rx="4" ry="6" fill="#333"/>
+  <ellipse cx="112" cy="75" rx="4" ry="6" fill="#333"/>
+  <circle cx="89" cy="73" r="1.5" fill="white"/>
+  <circle cx="113" cy="73" r="1.5" fill="white"/>
+  <!-- Sobrancelhas -->
+  <path d="M82 65 Q88 62 94 65" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+  <path d="M106 65 Q112 62 118 65" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+  <!-- Cílios -->
+  <line x1="84" y1="68" x2="83" y2="65" stroke="#333" stroke-width="1.5"/>
+  <line x1="92" y1="68" x2="93" y2="65" stroke="#333" stroke-width="1.5"/>
+  <line x1="108" y1="68" x2="107" y2="65" stroke="#333" stroke-width="1.5"/>
+  <line x1="116" y1="68" x2="117" y2="65" stroke="#333" stroke-width="1.5"/>
+  <!-- Bochechas rosadas -->
+  <ellipse cx="78" cy="85" rx="5" ry="4" fill="#f9a8d4" opacity="0.7"/>
+  <ellipse cx="122" cy="85" rx="5" ry="4" fill="#f9a8d4" opacity="0.7"/>
+  <!-- Nariz -->
+  <ellipse cx="100" cy="82" rx="2" ry="1.5" fill="#dc2626" opacity="0.5"/>
+  <!-- Boca (sorriso) -->
+  <path d="M92 90 Q100 96 108 90" fill="#dc2626" stroke="#333" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Pescoço -->
+  <rect x="92" y="105" width="16" height="12" fill="#fbbf24" stroke="#333" stroke-width="2"/>
+  <!-- Corpo (vestido) -->
+  <path d="M65 117 L55 185 L145 185 L135 117 Z" fill="#ec4899" stroke="#333" stroke-width="3"/>
+  <!-- Decote -->
+  <path d="M85 117 Q100 125 115 117" fill="#fce7f3" stroke="#333" stroke-width="2"/>
+  <!-- Braços -->
+  <ellipse cx="60" cy="130" rx="9" ry="22" fill="#fbbf24" stroke="#333" stroke-width="2" transform="rotate(-20 60 130)"/>
+  <ellipse cx="140" cy="130" rx="9" ry="22" fill="#fbbf24" stroke="#333" stroke-width="2" transform="rotate(20 140 130)"/>
+  <!-- Mãos -->
+  <circle cx="48" cy="148" r="8" fill="#fbbf24" stroke="#333" stroke-width="2"/>
+  <circle cx="152" cy="148" r="8" fill="#fbbf24" stroke="#333" stroke-width="2"/>
+  <!-- Detalhes do vestido (botoes) -->
+  <circle cx="100" cy="135" r="3" fill="#fcd34d" stroke="#333" stroke-width="1"/>
+  <circle cx="100" cy="155" r="3" fill="#fcd34d" stroke="#333" stroke-width="1"/>
+  <circle cx="100" cy="175" r="3" fill="#fcd34d" stroke="#333" stroke-width="1"/>
+  <!-- Barra do vestido (detalhe) -->
+  <line x1="60" y1="180" x2="140" y2="180" stroke="#be185d" stroke-width="2" stroke-dasharray="3,3"/>
+</svg>

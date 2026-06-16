@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" aria-label="Bolo de aniversário">
+  <rect width="200" height="200" fill="#fce7f3"/>
+  <!-- Prato -->
+  <ellipse cx="100" cy="175" rx="80" ry="8" fill="white" stroke="#333" stroke-width="2"/>
+  <!-- Base do bolo -->
+  <rect x="35" y="120" width="130" height="50" fill="#dc2626" stroke="#333" stroke-width="3"/>
+  <ellipse cx="100" cy="120" rx="65" ry="10" fill="#fef3c7" stroke="#333" stroke-width="2"/>
+  <!-- Camada do meio -->
+  <rect x="50" y="90" width="100" height="30" fill="#a16207" stroke="#333" stroke-width="3"/>
+  <ellipse cx="100" cy="90" rx="50" ry="8" fill="#fef3c7" stroke="#333" stroke-width="2"/>
+  <!-- Topo do bolo -->
+  <rect x="65" y="65" width="70" height="25" fill="#fce7f3" stroke="#333" stroke-width="3"/>
+  <ellipse cx="100" cy="65" rx="35" ry="6" fill="#fef3c7" stroke="#333" stroke-width="2"/>
+  <!-- Vela -->
+  <rect x="97" y="45" width="6" height="20" fill="#fcd34d" stroke="#333" stroke-width="1.5"/>
+  <!-- Chama -->
+  <ellipse cx="100" cy="40" rx="5" ry="7" fill="#fb923c"/>
+  <ellipse cx="100" cy="38" rx="3" ry="4" fill="#fcd34d"/>
+  <ellipse cx="100" cy="36" rx="1.5" ry="2" fill="white"/>
+  <!-- Confeitos na base -->
+  <circle cx="60" cy="140" r="3" fill="#fef3c7" stroke="#333" stroke-width="1"/>
+  <circle cx="80" cy="150" r="3" fill="#16a34a" stroke="#333" stroke-width="1"/>
+  <circle cx="100" cy="140" r="3" fill="#3b82f6" stroke="#333" stroke-width="1"/>
+  <circle cx="120" cy="150" r="3" fill="#fef3c7" stroke="#333" stroke-width="1"/>
+  <circle cx="140" cy="140" r="3" fill="#ec4899" stroke="#333" stroke-width="1"/>
+  <!-- Confeitos no topo -->
+  <circle cx="85" cy="75" r="2" fill="#dc2626"/>
+  <circle cx="100" cy="78" r="2" fill="#16a34a"/>
+  <circle cx="115" cy="75" r="2" fill="#3b82f6"/>
+  <!-- Cobertura escorrendo -->
+  <path d="M65 90 Q70 95 75 90" fill="none" stroke="#a16207" stroke-width="2"/>
+  <path d="M125 90 Q130 95 135 90" fill="none" stroke="#a16207" stroke-width="2"/>
+</svg>

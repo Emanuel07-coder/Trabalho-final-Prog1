@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" aria-label="Gato">
+  <rect width="200" height="200" fill="#fef3c7"/>
+  <!-- Corpo -->
+  <ellipse cx="100" cy="145" rx="45" ry="35" fill="#a16207" stroke="#333" stroke-width="3"/>
+  <!-- Cabeça -->
+  <circle cx="100" cy="90" r="40" fill="#a16207" stroke="#333" stroke-width="3"/>
+  <!-- Orelhas -->
+  <path d="M70 65 L75 35 L92 60 Z" fill="#a16207" stroke="#333" stroke-width="3"/>
+  <path d="M130 65 L125 35 L108 60 Z" fill="#a16207" stroke="#333" stroke-width="3"/>
+  <!-- Interior das orelhas (rosa) -->
+  <path d="M77 58 L80 45 L86 56 Z" fill="#f9a8d4"/>
+  <path d="M123 58 L120 45 L114 56 Z" fill="#f9a8d4"/>
+  <!-- Olhos verdes -->
+  <ellipse cx="85" cy="90" rx="6" ry="9" fill="#16a34a"/>
+  <ellipse cx="115" cy="90" rx="6" ry="9" fill="#16a34a"/>
+  <ellipse cx="85" cy="92" rx="2" ry="6" fill="#333"/>
+  <ellipse cx="115" cy="92" rx="2" ry="6" fill="#333"/>
+  <!-- Brilho nos olhos -->
+  <circle cx="87" cy="88" r="1.5" fill="white"/>
+  <circle cx="117" cy="88" r="1.5" fill="white"/>
+  <!-- Nariz rosa -->
+  <path d="M95 100 L105 100 L100 108 Z" fill="#ec4899" stroke="#333" stroke-width="1.5"/>
+  <!-- Boca -->
+  <path d="M100 108 Q95 115 90 112" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+  <path d="M100 108 Q105 115 110 112" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+  <!-- Bigodes -->
+  <line x1="60" y1="100" x2="85" y2="105" stroke="#333" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="60" y1="110" x2="85" y2="110" stroke="#333" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="140" y1="100" x2="115" y2="105" stroke="#333" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="140" y1="110" x2="115" y2="110" stroke="#333" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Patas -->
+  <ellipse cx="75" cy="175" rx="10" ry="8" fill="#a16207" stroke="#333" stroke-width="2"/>
+  <ellipse cx="125" cy="175" rx="10" ry="8" fill="#a16207" stroke="#333" stroke-width="2"/>
+  <!-- Cauda -->
+  <path d="M145 145 Q180 120 170 85" fill="none" stroke="#a16207" stroke-width="10" stroke-linecap="round"/>
+</svg>

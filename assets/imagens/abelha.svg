@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" aria-label="Abelha">
+  <rect width="200" height="200" fill="#fef9c3"/>
+  <!-- Asas (atrás do corpo) -->
+  <ellipse cx="70" cy="80" rx="28" ry="38" fill="white" opacity="0.7" stroke="#333" stroke-width="2" transform="rotate(-25 70 80)"/>
+  <ellipse cx="130" cy="80" rx="28" ry="38" fill="white" opacity="0.7" stroke="#333" stroke-width="2" transform="rotate(25 130 80)"/>
+  <!-- Detalhes nas asas -->
+  <ellipse cx="70" cy="80" rx="14" ry="20" fill="none" stroke="#333" stroke-width="1" transform="rotate(-25 70 80)" opacity="0.5"/>
+  <ellipse cx="130" cy="80" rx="14" ry="20" fill="none" stroke="#333" stroke-width="1" transform="rotate(25 130 80)" opacity="0.5"/>
+  <!-- Corpo (amarelo) -->
+  <ellipse cx="100" cy="125" rx="38" ry="50" fill="#fcd34d" stroke="#333" stroke-width="3"/>
+  <!-- Listras pretas -->
+  <path d="M65 105 Q100 100 135 105" fill="none" stroke="#333" stroke-width="10" stroke-linecap="round"/>
+  <path d="M62 135 Q100 130 138 135" fill="none" stroke="#333" stroke-width="10" stroke-linecap="round"/>
+  <path d="M68 160 Q100 155 132 160" fill="none" stroke="#333" stroke-width="10" stroke-linecap="round"/>
+  <!-- Cabeça preta -->
+  <circle cx="100" cy="70" r="20" fill="#1f2937" stroke="#333" stroke-width="2"/>
+  <!-- Olhos brancos -->
+  <circle cx="92" cy="68" r="4" fill="white"/>
+  <circle cx="108" cy="68" r="4" fill="white"/>
+  <circle cx="92" cy="68" r="2" fill="#333"/>
+  <circle cx="108" cy="68" r="2" fill="#333"/>
+  <!-- Antenas -->
+  <path d="M92 55 Q88 45 85 40" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+  <path d="M108 55 Q112 45 115 40" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="85" cy="40" r="3" fill="#1f2937"/>
+  <circle cx="115" cy="40" r="3" fill="#1f2937"/>
+  <!-- Sorriso -->
+  <path d="M93 78 Q100 82 107 78" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Ferrão -->
+  <path d="M100 175 L96 185 L104 185 Z" fill="#1f2937" stroke="#333" stroke-width="1.5"/>
+</svg>

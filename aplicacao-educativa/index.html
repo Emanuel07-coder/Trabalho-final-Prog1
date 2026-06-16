@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jogo educativo de alfabetização — Escolha a palavra correta" />
+  <title> Escolha a Palavra Correta</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
+  <link rel="stylesheet" href="Estilo/style.css" />
+</head>
+<body>
+  <a href="../index.html" class="botao-voltar" aria-label="Voltar para a página inicial">
+    ← Voltar ao Webfólio
+  </a>
+
+  <header class="cabecalho-jogo">
+    <h1>  Escolha a Palavra Correta</h1>
+    <p class="instrucoes">
+      Olhe a imagem com atenção e clique na <strong>palavra escrita corretamente</strong>!
+    </p>
+
+    <div class="placar" role="status" aria-live="polite">
+      <div class="placar-item">
+        <span class="placar-label">✅ Acertos</span>
+        <span class="placar-valor" id="placar-acertos">0</span>
+      </div>
+      <div class="placar-separador">/</div>
+      <div class="placar-item">
+        <span class="placar-label">🎯 Total</span>
+        <span class="placar-valor" id="placar-total">9</span>
+      </div>
+    </div>
+
+    <button id="botao-audio" class="botao-audio" aria-label="Ativar/Desativar som" aria-pressed="true">
+      🔊 Som: <span id="estado-audio">ON</span>
+    </button>
+  </header>
+
+  <main>
+    <section id="area-jogo" class="area-jogo" aria-label="Cartões do jogo"></section>
+
+    <section id="tela-final" class="tela-final" hidden>
+      <div class="tela-final-conteudo">
+        <div class="trofeu">🏆</div>
+        <h2 id="titulo-final">Parabéns!</h2>
+        <p id="mensagem-final"></p>
+        <div class="placar-final">
+          Você acertou <strong id="final-acertos">0</strong> de <strong>9</strong> palavras!
+        </div>
+        <div class="estrelas" id="estrelas"></div>
+        <p class="recorde" id="recorde"></p>
+        <div class="botoes-finais">
+          <button id="botao-reiniciar" class="botao-principal">🔁 Jogar novamente</button>
+          <a href="../index.html" class="botao-secundario">🏠 Voltar ao Webfólio</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape-jogo">
+    <p>Feito com para crianças em alfabetização</p>
+  </footer>
+
+  <script src="Script/jogo.js"></script>
+
+</body>
+</html>
+

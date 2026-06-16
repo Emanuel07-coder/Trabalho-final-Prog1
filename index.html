@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio pessoal de [Seu Nome] — Desenvolvedor Web e Educador" />
+  <meta name="author" content="[Seu Nome]" />
+
+  <!-- Visualização das formas de contato -->
+  <meta property="og:title" content="[Seu Nome] — Webfólio" />
+  <meta property="og:description" content="Portfólio pessoal e projeto educativo de alfabetização." />
+  <meta property="og:type" content="website" />
+
+  <title>Emanuel Campos — Webfólio Pessoal</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="estilo/global.css" />
+</head>
+<body>
+  <!--  navegação  com botões -->
+  <header class="cabecalho">
+    <nav class="navegacao" aria-label="Navegação principal">
+      <a href="#sobre" class="nav-link">Sobre</a>
+      <a href="#contato" class="nav-link">Contato</a>
+      <a href="aplicacao-educativa/index.html" class="nav-link nav-destaque">
+        🎮 Jogo Educativo
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Minha apresentação  -->
+    <section id="sobre" class="apresentacao">
+      <img
+        src="assets/perfil.svg"
+        alt="Foto de perfil de [Seu Nome]"
+        class="foto-perfil"
+        width="180"
+        height="180"
+        onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2250%22 fill=%22%234f46e5%22/><text x=%2250%22 y=%2265%22 text-anchor=%22middle%22 fill=%22white%2２ font-size=%2２50%２>👤</text></svg>'"
+      />
+      <h1>Oi, eu me chamo <span class="destaque-nome">Emanuel</span></h1>
+      <p class="bio">
+        Estudante de <strong>ADS do IFRO Campus Ariquemes</strong>, apaixonado por tecnologia
+        e educação. Este é meu espaço na web — bem-vindo(a)!
+      </p>
+
+      <!-- Links das minhas redes sociais -->
+      <ul class="redes-sociais" aria-label="Redes sociais">
+        <li>
+          <a href="https://github.com/Emanuel07-coder" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.1c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/>
+            </svg>
+            <span>GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/_emanuel_0607?igsh=MTVqbm9tNDA3M3ljeQ==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm8.75 2a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5zm-4.25 1.5a4.25 4.25 0 1 1 0 8.5 4.25 4.25 0 0 1 0-8.5zm0 1.5a2.75 2.75 0 1 0 0 5.5 2.75 2.75 0 0 0 0-5.5z"/>
+            </svg>
+            <span>Instagram</span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:emanuel.wenzel2007@gmail.com" aria-label="E-mail">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+            <span>E-mail</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Formulário simples -->
+    <section id="contato" class="contato">
+      <h2>📬 Entre em Contato</h2>
+      <p class="subtitulo">Preencha o formulário abaixo e retornarei em breve.</p>
+
+      <form id="formulario" class="formulario" novalidate>
+        <!-- Campo Nome -->
+        <div class="campo">
+          <label for="nome">Nome completo *</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            required
+            minlength="3"
+            maxlength="80"
+            placeholder="Ex: Maria Silva"
+            autocomplete="name"
+          />
+          <span class="mensagem-erro" id="erro-nome" aria-live="polite"></span>
+        </div>
+
+        <!-- Campo E-mail -->
+        <div class="campo">
+          <label for="email">E-mail *</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="seuemail@exemplo.com"
+            autocomplete="email"
+          />
+          <span class="mensagem-erro" id="erro-email" aria-live="polite"></span>
+        </div>
+
+        <!-- Campo Data -->
+        <div class="campo">
+          <label for="data">Data de nascimento *</label>
+          <input type="date" id="data" name="data" required />
+          <span class="mensagem-erro" id="erro-data" aria-live="polite"></span>
+        </div>
+
+        <!-- Campo Idade -->
+        <div class="campo">
+          <label for="numero">Idade *</label>
+          <input
+            type="number"
+            id="numero"
+            name="numero"
+            required
+            min="10"
+            max="120"
+            placeholder="Ex: 25"
+          />
+          <span class="mensagem-erro" id="erro-numero" aria-live="polite"></span>
+        </div>
+
+        <!-- Componente extra 1: RadioButton -->
+        <fieldset class="campo">
+          <legend>Assunto *</legend>
+          <div class="opcoes-radio">
+            <label><input type="radio" name="assunto" value="duvida" required /> Dúvida</label>
+            <label><input type="radio" name="assunto" value="sugestao" /> Sugestão</label>
+            <label><input type="radio" name="assunto" value="outro" /> Outro</label>
+          </div>
+          <span class="mensagem-erro" id="erro-assunto" aria-live="polite"></span>
+        </fieldset>
+
+        <!-- Componente extra 2: Checkbox -->
+        <fieldset class="campo">
+          <legend>Interesses</legend>
+          <div class="opcoes-check">
+            <label><input type="checkbox" name="interesses" value="programacao" /> Programação</label>
+            <label><input type="checkbox" name="interesses" value="educacao" /> Educação</label>
+            <label><input type="checkbox" name="interesses" value="design" /> Design</label>
+          </div>
+        </fieldset>
+
+        <!-- Componente extra 3: Select -->
+        <div class="campo">
+          <label for="estado">Estado</label>
+          <select id="estado" name="estado">
+            <option value="">Selecione...</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+          </select>
+        </div>
+
+        <!-- Mensagem -->
+        <div class="campo">
+          <label for="mensagem">Mensagem *</label>
+          <textarea
+            id="mensagem"
+            name="mensagem"
+            required
+            minlength="10"
+            maxlength="500"
+            rows="5"
+            placeholder="Escreva sua mensagem aqui..."
+          ></textarea>
+          <span class="mensagem-erro" id="erro-mensagem" aria-live="polite"></span>
+          <span class="contador" id="contador-mensagem">0/500 caracteres</span>
+        </div>
+
+        <button type="submit" class="botao-principal">Enviar mensagem</button>
+
+        <!-- Mensagem de sucesso -->
+        <div id="sucesso" class="mensagem-sucesso" role="status" hidden>
+          ✅ Mensagem enviada com sucesso! Obrigado pelo contato.
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>&copy; <span id="ano-atual"></span> Emanuel Campos — Feito com para Programação I</p>
+  </footer>
+
+  <script src="script/validacao.js"></script>
+</body>
+</html>
+
