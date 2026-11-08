@@ -1,10 +1,10 @@
-# 🎨 Webfólio + Jogo "Pinte a Palavra Correta"
+#  Webfólio + Jogo "Pinte a Palavra Correta"
 
-## 🚀 Rodar localmente
+##  Rodar localmente
 1. Mantenha a estrutura de pastas.
 2. Abra `index.html` no navegador (ou use **Live Server** no VS Code).
 
-## 🌐 Publicar no GitHub Pages
+##  Publicar no GitHub Pages
 1. Crie um repositório.
 2. Envie todos os arquivos mantendo as pastas.
 3. Em **Settings → Pages**:
@@ -12,7 +12,7 @@
    - Folder: `/ (root)`
 4. Aguarde 1-2 minutos.
 
-## 📁 Estrutura de pastas
+##  Estrutura de pastas
 - `index.html` — página do webfólio
 - `css/global.css` — estilos da home
 - `js/validacao.js` — validação do formulário
@@ -23,7 +23,7 @@
 
 - `assets/` — ícone, foto e imagens SVG
 
-## ✨ Funcionalidades
+##  Funcionalidades
 - Formulário com validação (HTML + JS)
 - Jogo "Pinte a Palavra Correta" com:
   - placar de acertos
